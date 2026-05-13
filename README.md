@@ -6,6 +6,12 @@ Works with **any** video player — just supply a `Stream<Duration>` of the curr
 
 ---
 
+## Demo
+
+https://github.com/dsc-uob/subtitle_widget/raw/master/screenshot.mp4
+
+---
+
 ## Installation
 
 Add to your `pubspec.yaml`:
