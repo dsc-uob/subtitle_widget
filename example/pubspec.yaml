@@ -13,6 +13,7 @@ dependencies:
   subtitle: ^0.2.0
   subtitle_widget:
     path: ../
+  video_player: ^2.9.2
 
 dev_dependencies:
   flutter_test:
