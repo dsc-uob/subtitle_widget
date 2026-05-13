@@ -28,32 +28,21 @@ class VideoSubtitleScreen extends StatefulWidget {
 }
 
 class _VideoSubtitleScreenState extends State<VideoSubtitleScreen> {
-  // A freely available Creative Commons test video with known duration.
   static const _videoUrl =
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4';
+      'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4';
 
-  // SRT subtitles timed to the first 30 seconds of Big Buck Bunny.
   static const _srtData = '''
 1
-00:00:03,000 --> 00:00:07,000
-Big Buck Bunny
+00:00:00,500 --> 00:00:02,500
+A butterfly in slow motion.
 
 2
-00:00:08,000 --> 00:00:13,000
-A short film by the Blender Foundation.
+00:00:02,500 --> 00:00:05,000
+Watch the wings catch the light.
 
 3
-00:00:14,000 --> 00:00:20,000
-A peaceful meadow, a gentle giant,
-and some mischievous rodents.
-
-4
-00:00:21,000 --> 00:00:27,000
-What could possibly go wrong?
-
-5
-00:00:28,000 --> 00:00:34,000
-Everything.
+00:00:05,000 --> 00:00:07,500
+subtitle_widget demo — powered by the subtitle package.
 ''';
 
   late VideoPlayerController _videoController;
