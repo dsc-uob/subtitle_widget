@@ -1,0 +1,19 @@
+name: subtitle_widget
+description: Flutter widgets for displaying subtitles, powered by the subtitle package. Supports any video player via a stream-based API.
+version: 0.1.0
+homepage: https://github.com/dsc-uob/subtitle_widget
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  subtitle: ^0.2.0
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
